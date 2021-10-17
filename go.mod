@@ -1,4 +1,4 @@
-module github.com/replicatedhq/krew-plugin-template
+module github.com/akundrock/view-vpa
 
 go 1.16
 

@@ -7,7 +7,7 @@ test:
 
 .PHONY: bin
 bin: fmt vet
-	go build -o bin/{{ .PluginName }} github.com/{{ .Owner }}/{{ .Repo }}/cmd/plugin
+	go build -o bin/view-vpa github.com/akundrock/view-vpa/cmd/plugin
 
 .PHONY: fmt
 fmt:
